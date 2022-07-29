@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemindersLite", "RemindersLite.csproj", "{AD6FC0F1-D765-41EA-ACBC-11AD29AC5ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD6FC0F1-D765-41EA-ACBC-11AD29AC5ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6FC0F1-D765-41EA-ACBC-11AD29AC5ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6FC0F1-D765-41EA-ACBC-11AD29AC5ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6FC0F1-D765-41EA-ACBC-11AD29AC5ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4697D9A9-6638-4C4C-B200-83963C200E92}
+	EndGlobalSection
+EndGlobal
