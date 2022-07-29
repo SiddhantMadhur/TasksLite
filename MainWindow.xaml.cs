@@ -27,6 +27,8 @@ namespace RemindersLite
             init();
         }
 
+     
+
         private void init ()
         {
             string[] tasks = File.ReadAllLines("data.txt");
@@ -58,7 +60,12 @@ namespace RemindersLite
 
         private void deleteTask(object sender, RoutedEventArgs e)
         {
-            listOfReminders.Items.RemoveAt(listOfReminders.Items.IndexOf(listOfReminders.SelectedItem));
+
+            if (listOfReminders.SelectedItem != null)
+            {
+                listOfReminders.Items.RemoveAt(listOfReminders.Items.IndexOf(listOfReminders.SelectedItem));
+            }
+            
             if (listOfReminders.Items.Count >= 0)
             {
                 using (TextWriter TW = new StreamWriter("data.txt"))
