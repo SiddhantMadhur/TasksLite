@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RemindersLite"
         mc:Ignorable="d"
-        Title="Reminders++" Height="800" Width="450">
+        Title="Tasks++" Height="800" Width="450">
     <Grid Margin="10, 5, 10, 5">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -17,7 +18,10 @@
         <Label FontSize="22" Grid.Row="0">Tasks++</Label>
         <TextBox FontSize="14" Padding="5, 10, 5, 10" x:Name="reminderInput" Margin="5,0,5,0" Grid.Row="1" />
         <Button Grid.Row="2" x:Name="btnToAddReminders" Click="addNewTask" Padding="6" Margin="5, 5, 5, 0" FontSize="18" >Add Task</Button>
-        <ListBox x:Name="listOfReminders" Grid.Row="3" Margin="5" />
+        <Button Grid.Row="3" x:Name="btnToRemoveReminders" Click="deleteTask" Padding="6" Margin="5, 5, 5, 0" FontSize="18" >Delete Selected Task</Button>
+        <ListBox FontSize="21" x:Name="listOfReminders" Grid.Row="4" Margin="5" >
+            
+        </ListBox>
 
     </Grid>
 </Window>
