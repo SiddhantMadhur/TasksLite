@@ -14,12 +14,13 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
+        
 
         <Label FontSize="22" Grid.Row="0">Tasks++</Label>
-        <TextBox FontSize="14" Padding="5, 10, 5, 10" x:Name="reminderInput" Margin="5,0,5,0" Grid.Row="1" />
-        <Button Grid.Row="2" x:Name="btnToAddReminders" Click="addNewTask" Padding="6" Margin="5, 5, 5, 0" FontSize="18" >Add Task</Button>
+        <TextBox FontSize="18" Padding="5, 10, 5, 10" x:Name="reminderInput" Margin="5,0,5,0" Grid.Row="1" />
+        <Button IsDefault="True" Grid.Row="2" x:Name="btnToAddReminders" Click="addNewTask" Padding="6" Margin="5, 5, 5, 0" FontSize="18" >Add Task</Button>
         <Button Grid.Row="3" x:Name="btnToRemoveReminders" Click="deleteTask" Padding="6" Margin="5, 5, 5, 0" FontSize="18" >Delete Selected Task</Button>
-        <ListBox FontSize="21" x:Name="listOfReminders" Grid.Row="4" Margin="5" >
+        <ListBox FontSize="18" x:Name="listOfReminders" Grid.Row="4" Margin="5" >
             
         </ListBox>
 
